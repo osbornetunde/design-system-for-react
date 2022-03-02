@@ -1,0 +1,21 @@
+/*=============================================
+=            Mixins            =
+=============================================*/
+
+@mixin tablet {
+  @media (min-width: map-get($breakpoint, "md")) {
+    @content;
+  }
+}
+
+@mixin laptop {
+  @media (min-width: map-get($breakpoint, "lg")) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: map-get($breakpoint, "xl")) {
+    @content;
+  }
+}

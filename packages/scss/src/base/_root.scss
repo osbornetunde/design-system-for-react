@@ -1,0 +1,18 @@
+:root {
+  --are-body-text-color: #{$dark};
+  --are-body-bg-color: #{$white};
+
+  --are-btn-primary-color: #{$white};
+  --are-btn-primary-bg: #{$green};
+  --are-btn-primary-bg-hover: #{$green_light};
+
+  --are-form-color: #{$dark};
+  --are-form-bg: #{$white};
+  --are-form-error-color: #{$red};
+  --are-form-error-border: #{$red};
+  --are-form-border-focus-color: #{$green};
+
+  --are-font-family-base: #{$raleway};
+  --are-font-family-heading: #{$playfair};
+  --are-font-family-monospace: monospace;
+}

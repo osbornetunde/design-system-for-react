@@ -1,0 +1,23 @@
+/*=============================================
+=            Global text colors            =
+=============================================*/
+$body-text-colors: var(--are-body-text-color, $dark) !default;
+$body-bg-color: var(--are-body-bg-color, $white) !default;
+
+/*=============================================
+=            Buttons            =
+=============================================*/
+
+$btn-primary-color: var(--are-btn-primary-color, $white) !default;
+$btn-primary-bg: var(--are-btn-primary-bg, $green) !default;
+$btn-primary-bg-hover: var(--are-btn-primary-bg-hover, $green-light) !default;
+
+/*=============================================
+=            Forms            =
+=============================================*/
+
+$form-color: var(--are-form-color, $dark) !default;
+$form-bg: var(--are-form-bg, $white) !default;
+$form-error-color: var(--are-form-error-color, $red) !default;
+$form-error-border: var(--are-form-error-border, $red) !default;
+$form-border-focus-color: var(--are-form-border-focus-color, $green) !default;

@@ -1,0 +1,11 @@
+@import "foundation/all";
+
+@each $size, $value in $spacing {
+  .are-width-#{$size} {
+    width: $value;
+  }
+
+  .are-height-#{$size} {
+    height: $value;
+  }
+}
