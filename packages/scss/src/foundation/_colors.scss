@@ -15,7 +15,14 @@ $btn-primary-bg-hover: var(--are-btn-primary-bg-hover, $green-light) !default;
 /*=============================================
 =            Forms            =
 =============================================*/
-
+$form-border-color: var(--are-form-border-color, $white-dark) !default;
+$form-bg-color: var(--are-form-bg-color, $white) !default;
+$form-bg-option-selected: var(--are-form-bg-option-selected, $green) !default;
+$form-color-option-selected: var(
+  --are-form-color-option-selected,
+  $white
+) !default;
+$form-bg-color-hover: var(--are-form-bg-color-hover, $white-dark) !default;
 $form-color: var(--are-form-color, $dark) !default;
 $form-bg: var(--are-form-bg, $white) !default;
 $form-error-color: var(--are-form-error-color, $red) !default;

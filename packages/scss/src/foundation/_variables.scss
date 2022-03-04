@@ -63,7 +63,7 @@ $fs: (
   //18px
   xl: 1.25rem,
   //20px
-  xxl: 1.5rem //24px,
+  xxl: 1.5rem //24px,,,
 );
 
 /* Heading Font  Size */
@@ -126,3 +126,7 @@ $spacing: (
   xxxl: 6rem,
   //96px
 ) !default;
+
+$shadows: (
+  base: 0px 4px 11px rgba(157, 157, 157, 0.21),
+);

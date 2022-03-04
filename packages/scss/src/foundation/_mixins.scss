@@ -19,3 +19,11 @@
     @content;
   }
 }
+
+@mixin padding($space) {
+  padding: map-get($spacing, $space);
+}
+
+@mixin margin($space) {
+  padding: map-get($spacing, $space);
+}
