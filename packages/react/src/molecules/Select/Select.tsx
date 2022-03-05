@@ -152,6 +152,7 @@ const Select = ({
   return (
     <div className="are-select">
       <button
+        data-testid="areSelectButton"
         aria-controls="are-select-list"
         aria-haspopup={true}
         aria-expanded={isOpen ? true : undefined}

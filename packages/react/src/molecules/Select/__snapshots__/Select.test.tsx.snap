@@ -1,0 +1,165 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot of the base state 1`] = `
+<DocumentFragment>
+  <div
+    class="are-select"
+  >
+    <button
+      aria-controls="are-select-list"
+      aria-haspopup="true"
+      class="are-select__label"
+      data-testid="areSelectButton"
+    >
+      <div
+        class="are-text are-text-base"
+      >
+        Please select an option ...
+      </div>
+      <svg
+        class="are-select__caret are-select__caret--closed"
+        fill="none"
+        height="1rem"
+        stroke="currentColor"
+        viewBox="0 0 24 24"
+        width="1rem"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M19 9l-7 7-7-7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+        />
+      </svg>
+    </button>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`snapshot of the options menu open state 1`] = `
+<DocumentFragment>
+  <div
+    class="are-select"
+  >
+    <button
+      aria-controls="are-select-list"
+      aria-expanded="true"
+      aria-haspopup="true"
+      class="are-select__label"
+      data-testid="areSelectButton"
+    >
+      <div
+        class="are-text are-text-base"
+      >
+        Please select an option ...
+      </div>
+      <svg
+        class="are-select__caret are-select__caret--open"
+        fill="none"
+        height="1rem"
+        stroke="currentColor"
+        viewBox="0 0 24 24"
+        width="1rem"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M19 9l-7 7-7-7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+        />
+      </svg>
+    </button>
+    <ul
+      class="are-select__overlay"
+      id="are-select-list"
+      role="menu"
+      style="top: 10px;"
+    >
+      <li
+        aria-label="Strict Black"
+        class="are-select__option 
+                  
+                    
+                  }"
+        role="menuitemradio"
+        tabindex="0"
+      >
+        <div
+          class="are-text are-text-base"
+        >
+          Strict Black
+        </div>
+      </li>
+      <li
+        aria-label="Heavenly Green"
+        class="are-select__option 
+                  
+                    
+                  }"
+        role="menuitemradio"
+        tabindex="0"
+      >
+        <div
+          class="are-text are-text-base"
+        >
+          Heavenly Green
+        </div>
+      </li>
+      <li
+        aria-label="Sweet Pink"
+        class="are-select__option 
+                  
+                    
+                  }"
+        role="menuitemradio"
+        tabindex="0"
+      >
+        <div
+          class="are-text are-text-base"
+        >
+          Sweet Pink
+        </div>
+      </li>
+    </ul>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`snapshot of the selected option state 1`] = `
+<DocumentFragment>
+  <div
+    class="are-select"
+  >
+    <button
+      aria-controls="are-select-list"
+      aria-haspopup="true"
+      class="are-select__label"
+      data-testid="areSelectButton"
+    >
+      <div
+        class="are-text are-text-base"
+      >
+        Strict Black
+      </div>
+      <svg
+        class="are-select__caret are-select__caret--closed"
+        fill="none"
+        height="1rem"
+        stroke="currentColor"
+        viewBox="0 0 24 24"
+        width="1rem"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M19 9l-7 7-7-7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+        />
+      </svg>
+    </button>
+  </div>
+</DocumentFragment>
+`;
