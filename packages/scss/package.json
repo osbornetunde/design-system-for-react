@@ -30,5 +30,9 @@
     "stylelint-config-prettier": "^9.0.3",
     "stylelint-config-sass-guidelines": "^9.0.1",
     "stylelint-prettier": "^2.0.0"
-  }
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "4b65f0e854a405bb332264aee6ec5de746a68ef2"
 }
