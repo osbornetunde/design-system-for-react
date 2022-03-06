@@ -181,12 +181,14 @@ const Select = ({
           />
         </svg>
       </button>
-      {isOpen && (
+      {
         <ul
           role="menu"
           id="are-select-list"
           style={{ top: overlayTop }}
-          className="are-select__overlay"
+          className={`are-select__overlay ${
+            isOpen ? "are-select__overlay--open" : ""
+          }`}
         >
           {options.map((option, optionIndex) => {
             const isSelected = selectedIndex === optionIndex;
@@ -245,7 +247,7 @@ const Select = ({
             );
           })}
         </ul>
-      )}
+      }
     </div>
   );
 };
