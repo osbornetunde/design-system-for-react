@@ -530,3 +530,9 @@ template {
   --are-font-family-heading: Playfair, serif;
   --are-font-family-monospace: monospace;
 }
+
+body {
+  font-family: var(--are-font-family, "Playfair", serif);
+  font-size: var(--are-body-font-size, 0.875rem);
+  font-weight: var(--are-body-font-weight, 300);
+}
