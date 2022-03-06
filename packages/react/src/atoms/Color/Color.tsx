@@ -1,10 +1,10 @@
-import React from "react"
-import { Spacing } from "@ar.e/foundation"
+import React from "react";
+import { Spacing } from "@ar.e/foundation";
 
-interface ColorProps {
-  hexCode: string
-  width?: keyof typeof Spacing
-  height?: keyof typeof Spacing
+export interface ColorProps {
+  hexCode: string;
+  width?: keyof typeof Spacing;
+  height?: keyof typeof Spacing;
 }
 
 const Color: React.FC<ColorProps> = ({
@@ -12,7 +12,7 @@ const Color: React.FC<ColorProps> = ({
   width = Spacing.sm,
   height = Spacing.sm,
 }) => {
-  const className = `are-width-${width} are-height-${height}`
+  const className = `are-width-${width} are-height-${height}`;
   return (
     <div
       className={className}
@@ -20,7 +20,7 @@ const Color: React.FC<ColorProps> = ({
         backgroundColor: hexCode,
       }}
     ></div>
-  )
-}
+  );
+};
 
-export default Color
+export default Color;

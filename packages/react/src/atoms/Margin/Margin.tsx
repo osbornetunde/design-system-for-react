@@ -1,12 +1,12 @@
-import React from "react"
-import { Spacing } from "@ar.e/foundation"
+import React from "react";
+import { Spacing } from "@ar.e/foundation";
 
-interface MarginProps {
-  space?: keyof typeof Spacing
-  left?: boolean
-  right?: boolean
-  top?: boolean
-  bottom?: boolean
+export interface MarginProps {
+  space?: keyof typeof Spacing;
+  left?: boolean;
+  right?: boolean;
+  top?: boolean;
+  bottom?: boolean;
 }
 
 const Margin: React.FC<MarginProps> = ({
@@ -17,28 +17,28 @@ const Margin: React.FC<MarginProps> = ({
   top,
   bottom,
 }) => {
-  let className = ``
+  let className = ``;
 
   if (!left && !right && !top && !bottom) {
-    className = `are-margin-${space}`
+    className = `are-margin-${space}`;
   }
 
   if (left) {
-    className = `${className} are-margin-left-${space}`
+    className = `${className} are-margin-left-${space}`;
   }
 
   if (right) {
-    className = `${className} are-margin-right-${space}`
+    className = `${className} are-margin-right-${space}`;
   }
 
   if (top) {
-    className = `${className} are-margin-top-${space}`
+    className = `${className} are-margin-top-${space}`;
   }
 
   if (bottom) {
-    className = `${className} are-margin-bottom-${space}`
+    className = `${className} are-margin-bottom-${space}`;
   }
-  return <div className={className}>{children}</div>
-}
+  return <div className={className}>{children}</div>;
+};
 
-export default Margin
+export default Margin;
