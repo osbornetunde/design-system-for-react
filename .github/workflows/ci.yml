@@ -20,3 +20,7 @@ jobs:
         run: yarn build
       - name: Automated Tests
         run: yarn test
+      - name: Visual regression test
+        env:
+          CHROMATIC_KEY: ${{ secrets.CHROMATIC_KEY }}
+        run: yarn test:chromatic

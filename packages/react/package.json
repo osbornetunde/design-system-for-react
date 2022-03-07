@@ -35,7 +35,7 @@
     "test:watch": "yarn test --watch",
     "start-storybook": "start-storybook",
     "build-storybook": "build-storybook",
-    "chromatic": "yarn chromatic --project-token=8fdff2de396c"
+    "test:chromatic": "yarn chromatic --project-token=\"$CHROMATIC_KEY\""
   },
   "publishConfig": {
     "access": "public"
