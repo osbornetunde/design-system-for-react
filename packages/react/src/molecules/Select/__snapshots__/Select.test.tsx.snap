@@ -33,6 +33,58 @@ exports[`snapshot of the base state 1`] = `
         />
       </svg>
     </button>
+    <ul
+      class="are-select__overlay "
+      id="are-select-list"
+      role="menu"
+      style="top: 10px;"
+    >
+      <li
+        aria-label="Strict Black"
+        class="are-select__option 
+                  
+                    
+                  }"
+        role="menuitemradio"
+        tabindex="0"
+      >
+        <div
+          class="are-text are-text-base"
+        >
+          Strict Black
+        </div>
+      </li>
+      <li
+        aria-label="Heavenly Green"
+        class="are-select__option 
+                  
+                    
+                  }"
+        role="menuitemradio"
+        tabindex="0"
+      >
+        <div
+          class="are-text are-text-base"
+        >
+          Heavenly Green
+        </div>
+      </li>
+      <li
+        aria-label="Sweet Pink"
+        class="are-select__option 
+                  
+                    
+                  }"
+        role="menuitemradio"
+        tabindex="0"
+      >
+        <div
+          class="are-text are-text-base"
+        >
+          Sweet Pink
+        </div>
+      </li>
+    </ul>
   </div>
 </DocumentFragment>
 `;
@@ -72,7 +124,7 @@ exports[`snapshot of the options menu open state 1`] = `
       </svg>
     </button>
     <ul
-      class="are-select__overlay"
+      class="are-select__overlay are-select__overlay--open"
       id="are-select-list"
       role="menu"
       style="top: 10px;"
@@ -160,6 +212,75 @@ exports[`snapshot of the selected option state 1`] = `
         />
       </svg>
     </button>
+    <ul
+      class="are-select__overlay "
+      id="are-select-list"
+      role="menu"
+      style="top: 10px;"
+    >
+      <li
+        aria-checked="true"
+        aria-label="Strict Black"
+        class="are-select__option 
+                  are-select__option--selected
+                    
+                  }"
+        role="menuitemradio"
+        tabindex="0"
+      >
+        <div
+          class="are-text are-text-base"
+        >
+          Strict Black
+        </div>
+        <svg
+          class="w-6 h-6"
+          fill="none"
+          height="1rem"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+          width="1rem"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M5 13l4 4L19 7"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+          />
+        </svg>
+      </li>
+      <li
+        aria-label="Heavenly Green"
+        class="are-select__option 
+                  
+                    
+                  }"
+        role="menuitemradio"
+        tabindex="0"
+      >
+        <div
+          class="are-text are-text-base"
+        >
+          Heavenly Green
+        </div>
+      </li>
+      <li
+        aria-label="Sweet Pink"
+        class="are-select__option 
+                  
+                    
+                  }"
+        role="menuitemradio"
+        tabindex="0"
+      >
+        <div
+          class="are-text are-text-base"
+        >
+          Sweet Pink
+        </div>
+      </li>
+    </ul>
   </div>
 </DocumentFragment>
 `;
